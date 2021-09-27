@@ -1,5 +1,5 @@
 
-/*Estilo AULA ABIERTA - CSS*/
+/*Estilo BANABIL - CSS*/
 
 :root{
 
@@ -8,215 +8,6 @@
  }
 
 /* Fonts */
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-LightIt.eot');
-    src: url('fonts/NeueHaasUnicaPro-LightIt.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-LightIt.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-LightIt.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-LightIt.svg#NeueHaasUnicaPro-LightIt') format('svg');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-UltLightIt.eot');
-    src: url('fonts/NeueHaasUnicaPro-UltLightIt.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-UltLightIt.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-UltLightIt.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-UltLightIt.svg#NeueHaasUnicaPro-UltLightIt') format('svg');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-Heavy.eot');
-    src: url('fonts/NeueHaasUnicaPro-Heavy.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-Heavy.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-Heavy.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-Heavy.svg#NeueHaasUnicaPro-Heavy') format('svg');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-Thin.eot');
-    src: url('fonts/NeueHaasUnicaPro-Thin.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-Thin.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-Thin.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-Thin.svg#NeueHaasUnicaPro-Thin') format('svg');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-Light.eot');
-    src: url('fonts/NeueHaasUnicaPro-Light.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-Light.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-Light.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-Light.svg#NeueHaasUnicaPro-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-Regular.eot');
-    src: url('fonts/NeueHaasUnicaPro-Regular.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-Regular.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-Regular.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-Regular.svg#NeueHaasUnicaPro-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-BoldItalic.eot');
-    src: url('fonts/NeueHaasUnicaPro-BoldItalic.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-BoldItalic.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-BoldItalic.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-BoldItalic.svg#NeueHaasUnicaPro-BoldItalic') format('svg');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-HeavyIt.eot');
-    src: url('fonts/NeueHaasUnicaPro-HeavyIt.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-HeavyIt.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-HeavyIt.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-HeavyIt.svg#NeueHaasUnicaPro-HeavyIt') format('svg');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-XBlack.eot');
-    src: url('fonts/NeueHaasUnicaPro-XBlack.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-XBlack.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-XBlack.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-XBlack.svg#NeueHaasUnicaPro-XBlack') format('svg');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-Medium.eot');
-    src: url('fonts/NeueHaasUnicaPro-Medium.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-Medium.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-Medium.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-Medium.svg#NeueHaasUnicaPro-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-BlackIt.eot');
-    src: url('fonts/NeueHaasUnicaPro-BlackIt.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-BlackIt.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-BlackIt.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-BlackIt.svg#NeueHaasUnicaPro-BlackIt') format('svg');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-UltraLight.eot');
-    src: url('fonts/NeueHaasUnicaPro-UltraLight.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-UltraLight.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-UltraLight.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-UltraLight.svg#NeueHaasUnicaPro-UltraLight') format('svg');
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-Black.eot');
-    src: url('fonts/NeueHaasUnicaPro-Black.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-Black.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-Black.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-Black.svg#NeueHaasUnicaPro-Black') format('svg');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-Bold.eot');
-    src: url('fonts/NeueHaasUnicaPro-Bold.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-Bold.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-Bold.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-Bold.svg#NeueHaasUnicaPro-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-MediumIt.eot');
-    src: url('fonts/NeueHaasUnicaPro-MediumIt.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-MediumIt.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-MediumIt.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-MediumIt.svg#NeueHaasUnicaPro-MediumIt') format('svg');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-ThinItalic.eot');
-    src: url('fonts/NeueHaasUnicaPro-ThinItalic.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-ThinItalic.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-ThinItalic.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-ThinItalic.svg#NeueHaasUnicaPro-ThinItalic') format('svg');
-    font-weight: 100;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Neue Haas Unica Pro';
-    src: url('fonts/NeueHaasUnicaPro-Italic.eot');
-    src: url('fonts/NeueHaasUnicaPro-Italic.woff2') format('woff2'),
-        url('fonts/NeueHaasUnicaPro-Italic.woff') format('woff'),
-        url('fonts/NeueHaasUnicaPro-Italic.ttf') format('truetype'),
-        url('fonts/NeueHaasUnicaPro-Italic.svg#NeueHaasUnicaPro-Italic') format('svg');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Marydale';
-    src: url('fonts/Marydale.eot');
-    src: url('fonts/Marydale.woff2') format('woff2'),
-        url('fonts/Marydale.woff') format('woff'),
-        url('fonts/Marydale.ttf') format('truetype'),
-        url('fonts/Marydale.svg#Marydale') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Stag';
-    src: url('fonts/Stag-Light.eot');
-    src: url('fonts/Stag-Light.woff2') format('woff2'),
-        url('fonts/Stag-Light.woff') format('woff'),
-        url('fonts/Stag-Light.ttf') format('truetype'),
-        url('fonts/Stag-Light.svg#Stag-Light') format('svg');
-    font-weight: 300;
-    font-style: normal;
-}
 
 
 
@@ -341,7 +132,6 @@ body {
 	font-size: 1.8rem;
 	font-weight: normal;
 	text-align: left;
-	font-family: 'Neue Haas Unica Pro';
 	color: #000;
 	background-color: #ffffff;
 }
@@ -682,7 +472,6 @@ hr {
     font-size: 1.6rem;
     padding-bottom: 13px;
     margin-left: 0;
-    font-family: Neue Haas Unica Pro;
     font-weight: 600;
     border-bottom: 5px solid var(--colorteja);
 }
@@ -697,7 +486,6 @@ hr {
     font-size: 1.6rem;
     padding-bottom: 13px;
     margin-left: 0;
-    font-family: Neue Haas Unica Pro;
     font-weight: 600;
     border-bottom: 5px solid var(--colorteja);
     margin-bottom: 30px;
@@ -717,7 +505,6 @@ hr {
     font-size: 2.6rem;
     border-bottom: 3px solid #BCBCBC;
     padding-bottom: 5px;
-    font-family: 'Neue Haas Unica Pro';
     font-weight: 300;
     margin-bottom: 25px;
 }
@@ -729,7 +516,6 @@ hr {
     font-size: 2.6rem;
     border-bottom: 3px solid var(--colorteja);
     padding-bottom: 5px;
-    font-family: 'Neue Haas Unica Pro';
     font-weight: 300;
     margin-bottom: 25px;
 }
@@ -813,7 +599,6 @@ hr {
     font-size: 1.6rem;
     padding-bottom: 15px;
     margin-left: 0;
-    font-family: Neue Haas Unica Pro;
     font-weight: 600;
     border-bottom: 5px solid #fff;
      margin-bottom: 30px;
@@ -889,7 +674,6 @@ hr {
     font-size: 3.6rem;
     padding-bottom: 13px;
     margin-left: 0;
-    font-family: Neue Haas Unica Pro;
     font-weight: 300;
     border-bottom: 5px solid var(--colorteja);
 }
@@ -945,7 +729,6 @@ hr {
 /*Énfasis 5*/
 
 .bck-enfasis-5 {
-	font-family: 'Marydale', Sans-Serif;
 	color: #0057A4;
 	font-size: 2.2rem;
 }
@@ -1070,7 +853,6 @@ hr {
 #actividad .popover-content .bck-ol-1 li:before,
 #actividad .content .workspace ul li .bck-ol-1 li:before {
 	content: counter(bck-li-counter) ".";
-	font-family: Neue Haas Unica Pro;
 	font-weight: 800;
 	position: absolute;
 	text-align: right;
@@ -1114,7 +896,6 @@ hr {
 	text-align: right;
 	margin-left: -10px;
 	width: 30px;
-	font-family: Neue Haas Unica Pro;
 
 }
 
@@ -2274,7 +2055,6 @@ hr {
 .fa-info:before {
 	content: "+";
 	font-weight: bold;
-	font-family: Neue Haas Unica Pro;
 	font-size: 2.2rem;
 	line-height: 20px;
 	color: #333;
@@ -3104,3 +2884,19 @@ border-radius: 0px;
 }
 
 
+.zoom_flag_img {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    vertical-align: top;
+    background-image: url(../../../images/shared/tools.png);
+    -webkit-background-size: 81px auto;
+    -moz-background-size: 81px auto;
+    -o-background-size: 81px auto;
+    background-size: 81px auto;
+    background-position: -7px -549px;
+    background-repeat: no-repeat;
+    height: 28px;
+    width: 28px;
+    background-color: rgba(75,75,75,.57);
+}
