@@ -886,7 +886,8 @@ hr {
 #actividad .content .cke_contents .bck-ol-2 li:before,
 #actividad .content .texto_curso .bck-ol-2 li:before,
 #actividad .popover-content .bck-ol-2 li:before,
-#actividad .content .workspace ul li .bck-ol-2 li:before {
+#actividad .content .workspace ul li .bck-ol-2 li:before,
+#actividad .content .texto_curso ol.bck-ol-2 li:before {
     content: counter(bck-li-counter) ".";
     font-weight: 500;
     position: absolute;
