@@ -372,8 +372,12 @@ body.is_app .banabildemo-navbar.ocultar {
 	filter: alpha(opacity=50);
 }
 
+#actividad .workspace.chooseblanks .inline-answer {
+    vertical-align: text-bottom;
+}
+
 #actividad .workspace.chooseblanks .inline-answer a {
-	margin: -7px 2px 2px 2px;
+	margin: 0px;
 	border: 2px solid #aaa;
 }
 
@@ -1425,14 +1429,14 @@ hr {
 
 
 .bck-box.bck-box-1 {
-	min-height: auto;
-	margin-top: 20px;
-	background-color: #F9FAF8;
-	color: #545655;
-	-webkit-box-shadow: 0 9px 15px 5px #D4D2D2;
-	box-shadow: 0 9px 15px 5px #D4D2D2;
-	font-size: 16px;
-	margin-bottom: 35px;
+min-height: auto;
+    margin-top: 20px;
+    background-color: #FBFCFB;
+    color: #545655;
+    font-size: 16px;
+    margin-bottom: 35px;
+    border: 2px solid #8ebf99;
+    padding: 20px;
 }
 
 
