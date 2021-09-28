@@ -704,6 +704,8 @@ hr {
     border-top-right-radius: 15px;
     margin-right: 10px;
     border-image: linear-gradient(90deg, #74c0da, #fbe7a8) 1;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 /*Énfasis 2*/
