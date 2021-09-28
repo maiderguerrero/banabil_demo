@@ -1436,7 +1436,7 @@ min-height: auto;
     font-size: 16px;
     margin-bottom: 35px;
     border: 2px solid #8ebf99;
-    padding: 20px;
+    padding: 15px;
 }
 
 
@@ -1453,7 +1453,7 @@ min-height: auto;
     background-color: transparent;
     padding: 10px;
     padding-bottom: 0px;
-    padding-left: 50px;
+    padding-left: 10px;
     border-radius: 0px;
     font-weight: 800;
 }
