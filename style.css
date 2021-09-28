@@ -377,8 +377,8 @@ body.is_app .banabildemo-navbar.ocultar {
 }
 
 #actividad .workspace.chooseblanks .inline-answer a {
-	margin: 0px;
-	border: 2px solid #aaa;
+	margin: 2px;
+	border: 1px solid #aaa;
 }
 
 .bck-i-fullscreen figcaption {
