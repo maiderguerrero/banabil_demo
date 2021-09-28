@@ -696,8 +696,17 @@ hr {
 /*Énfasis 1*/
 
 .bck-enfasis-1 {
-	color: var(--colorteja);
-    font-weight: 800;
+	color: #000;
+    font-weight: normal;
+    border-image-source: linear-gradient(to left, #FBE7A8, #74C0DA);
+    border: 2px solid;
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    padding: 2px 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-right: 10px;
 }
 
 /*Énfasis 2*/
